@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #fff url('http://a1.dspnimg.com/data/l/1482704057957_YaLc0h9v_l.jpg') repeat center;
+  background: #fff url('../img/bg.jpg') repeat center;
   font-family: 'Bitter', serif;
 }
 body {

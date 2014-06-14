@@ -3,6 +3,8 @@
 var path = require('path');
 var http = require('http');
 var express = require('express');
+var compression = require('compression');
+var bodyParser = require('body-parser');
 var consolidate = require('consolidate');
 var elasticsearch = require('elasticsearch');
 var appRoutesConfigurer = require('./routes');
@@ -18,7 +20,9 @@ function start(config, callback) {
   expressApp.engine('html', consolidate.swig);
   expressApp.set('view engine', 'html');
   expressApp.set('views', path.join(__dirname, 'views'));
+  expressApp.use(compression());
   expressApp.use(express.static(path.join(__dirname, 'public')));
+  expressApp.use(bodyParser.json());
 
   for (var route in appRoutes) {
     expressApp.use('/' + route, appRoutes[route]);
@@ -58,6 +62,7 @@ function bootstrap(serverConfig, callback) {
     config[key] = serverConfig[key];
   }
 
+  config.rootPath = __dirname;
   config.db = elasticsearch.Client({ host: 'localhost:9200', log: 'trace' });
   start(config, callback);
 }

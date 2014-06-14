@@ -12,6 +12,7 @@
     <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/css/internal.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -20,52 +21,72 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="#">Book Monster</a>
+        </div>				
+        <div class="navbar-search">
+					<form class="form-inline" action="#TBD" method="post" id="search">
+					  <div class="form-group">
+					    <label class="sr-only" for="gossip">Query</label>
+					    <input type="email" class="form-control" id="gossip" placeholder="The author was Zadie something with a girl on the cover..." size="75" maxlength="128" value="The author was Zadie something with a girl on the cover" />
+					  </div>
+					  <button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
+					</form>
+        </div>				
       </div>
     </div>
 
     <div class="container">
-
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
+			
+			<div class="row">
+			  <div class="col-md-8">
+					<div class="query">
+						<p>The author was Zadie something with a girl on the cover</p>
+					</div>
+					<div class="books">
+						<img src="assets/img/covers/medium/9780007564286.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780091951528.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780091956486.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780091957841.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780091958312.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780099556039.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780099559146.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780099559283.jpg" class="book-cover" />
+						<img src="assets/img/covers/medium/9780099571353.jpg" class="book-cover" />
+					</div>
+					<p></p>
+				</div>
+			  <div class="col-md-4">
+					<table class="table" id="attributes">
+					  <thead>
+					    <tr>
+					      <th></th>
+					      <th></th>
+								<th></th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td class="attribute"><span class="glyphicon glyphicon-user"></span> Author</td>
+					      <td>Canavan, Trudi</td>
+								<td><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
+					    </tr>
+					    <tr>
+					      <td class="attribute"><span class="glyphicon glyphicon-folder-open"></span> Theme</td>
+					      <td>Science Fiction & Fantasy</td>
+								<td><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
+					    </tr>
+					    <tr>
+					      <td class="attribute"><span class="glyphicon glyphicon-book"></span> Cover</td>
+					      <td>Grey-ish</td>
+								<td><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+					<br />						
+							
+							
+			  </div>
+			</div>
     </div> <!-- /container -->
 
 

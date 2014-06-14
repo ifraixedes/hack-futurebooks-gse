@@ -1,4 +1,49 @@
 body {
   min-height: 1000px;
-  padding-top: 80px;
+  padding-top: 100px;
+  font-family: 'Bitter', serif;
+}
+
+div.navbar {
+	background: #343434;
+	height: 80px;
+}
+
+div.navbar div.container div.navbar-header a.navbar-brand {
+	font-size: 25px;
+	padding-top: 30px;
+	width: 250px;
+	color: #fff;
+}
+
+div.navbar div.container div.navbar-header a.navbar-brand:hover {
+	color: #ffcc00;
+}
+
+div.navbar div.container div.navbar-search {
+	padding-top: 22px;
+}
+
+div.query {
+	background: url('../img/quotes.png') no-repeat 640px 10px;
+	padding: 40px 100px 40px 40px;
+	margin-bottom: 20px;
+}
+
+div.query p {
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+img.book-cover {
+	margin: 6px;
+}
+
+table#attributes tr td.attribute span {
+	margin-right: 8px;
+}
+
+table#attributes tr td.attribute {
+	font-weight: bold;
 }

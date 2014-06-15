@@ -22,6 +22,7 @@ function start(config, callback) {
   expressApp.set('views', path.join(__dirname, 'views'));
   expressApp.use(compression());
   expressApp.use(express.static(path.join(__dirname, 'public')));
+  expressApp.use(bodyParser.urlencoded());
   expressApp.use(bodyParser.json());
 
   for (var route in appRoutes) {

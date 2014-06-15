@@ -3,7 +3,7 @@
 var homeRouter = require('express').Router();
 
 homeRouter.get('/', function home(req, res, next) {
-  res.render('home', { msg: 'Message from Server' });
+  res.render('home');
 });
 
 module.exports = function (config) {

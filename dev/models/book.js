@@ -22,7 +22,6 @@ module.exports = function (config) {
       }
     }, baseBookData);
 
-
     queryObj.body.query = {
       match: {
         _all: {

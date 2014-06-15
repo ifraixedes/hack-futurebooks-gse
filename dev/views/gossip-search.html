@@ -101,17 +101,17 @@
             <tbody>
             <tr>
               <td class="attribute"><span class="glyphicon glyphicon-user"></span> Author</td>
-              <td>Canavan, Trudi</td>
+              <td>{{ books[0]._source.author|replace('& Dubner, Stephen J.', '', 'g') }}</td>
               <td class="actions"><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
             </tr>
             <tr>
               <td class="attribute"><span class="glyphicon glyphicon-folder-open"></span> Theme</td>
-              <td>Science Fiction & Fantasy</td>
+              <td>{{ books[0]._source.productClass|replace('^[\w\d.]+ ', '', 'g') }}</td>
               <td class="actions"><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
             </tr>
             <tr>
               <td class="attribute"><span class="glyphicon glyphicon-book"></span> Cover</td>
-              <td>Grey-ish</td>
+              <td>{{ books[0]._source.coverColour }}-ish</td>
               <td class="actions"><a class="glyphicon glyphicon-remove-circle" href="#"></a></td>
             </tr>
             </tbody>

@@ -1,9 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <title>Books</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/cover.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
   </head>
+
   <body>
-    <h1>Static page</h1>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+					<!--
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Book Finder</h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Get in touch</a></li>
+              </ul>
+            </div>
+          </div>
+					-->
+
+          <div class="inner cover">
+            <h1 class="cover-heading">What book are you looking for?</h1>
+						
+						<form class="form-inline" action="#TBD" method="post" id="search">
+						  <div class="form-group">
+						    <label class="sr-only" for="gossip">Query</label>
+						    <input type="text" class="form-control" id="gossip" placeholder="The author was Zadie something with a girl on the cover..." size="75" maxlength="128" />
+						  </div>
+						  <button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
+						</form>						
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>A prototype part of <a href="https://twitter.com/hashtag/futurebookhack">#FutureBookHack</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

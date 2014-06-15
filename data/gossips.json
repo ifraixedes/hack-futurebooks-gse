@@ -1,9 +1,9 @@
 [
   {
-    "text": "bla bla bal",
+    "text": "adult",
     "location": {
       "lat": 40.12,
-      "loc": -71.34,
+      "lon": -71.34,
     }
   }
 ]

@@ -9,6 +9,7 @@ homeRouter.get('/', function home(req, res, next) {
 module.exports = function (config) {
   return {
     '': homeRouter,
-    'search': require('./search')(config)
+    'search': require('./search')(config),
+    'book': require('./book')(config)
   };
 };

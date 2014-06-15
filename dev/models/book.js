@@ -9,6 +9,23 @@ module.exports = function (config) {
   function Book(data) {
   }
 
+  Book.findByIsbn = function (isbn) {
+    var queryObj = _extend({
+      body: {
+        query: {
+          match: {
+            isbn: isbn
+          }
+        }
+      }
+    }, baseBookData);
+
+    return db.search(queryObj)
+    .then(modelHelper.dbResultFromSearchToData)
+    .then(function (bookDocsList) {
+      return bookDocksList[0] || null;
+    });
+  };
   /**
    *
    * [distance] (number|string): distance radius in kilometers when number. Default 50km

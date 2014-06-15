@@ -18,10 +18,11 @@ module.exports = function (config) {
   router.get('/:gossipId', function (req, res, next) {
     Gossip.findById(req.params.gossipId)
     .then(function (gossipDoc) {
-      Book.findSome(gossipDoc.text)
+      //Book.findSome(gossipDoc.text)
+      return Book.findByGossip(gossipDoc.text)
       .then(function (books) {
         res.render('gossip-search', { books: books, gossip: gossipDoc });
-      }, next);
+      });
     }, next);
   });
 

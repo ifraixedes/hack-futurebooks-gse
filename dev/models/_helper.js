@@ -27,8 +27,30 @@ function dbResultFromSingleDocument(dbResult) {
   return data;
 }
 
+function gossipTextToBookFields(gossipText) {
+  var authorRegExp = /(?:(?:author(?: is| was|:)?)|(?:by)) ([\w]*)/i;
+  var match = null;
+  var textLeft = gossipText;
+  var queryFields = {};
+
+  if (match = authorRegExp.exec(gossipText)) {
+    queryFields.author = match[1];
+    textLeft =  textLeft.replace(match[0], '');
+  }
+
+  if (Object.keys(queryFields).length === 0) {
+    return null;
+  } else {
+    return {
+      textLeft: textLeft || null,
+      queryFields: queryFields
+    }
+  }
+}
+
 module.exports = {
   dbResultFromSearchToData: dbResultFromSearchToData,
   dbResultFromInsertToData: dbResultFromInsertToData,
-  dbResultFromSingleDocument: dbResultFromSingleDocument
+  dbResultFromSingleDocument: dbResultFromSingleDocument,
+  gossipTextToBookFields: gossipTextToBookFields
 };

@@ -22,7 +22,7 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Book Monster</a>
+          <a class="navbar-brand" href="/">Book Monster</a>
         </div>
         <div class="navbar-search">
           <form class="form-inline" action="/search" method="post" id="search">
@@ -74,6 +74,12 @@
                 <td class="attribute"><span class="glyphicon glyphicon-calendar"></span> Publication Date</td>
                 <td>{{ book.datePub }}</td>
               </tr>
+              {% if book.prize %}
+              <tr>
+                <td class="attribute"><span class="glyphicon glyphicon-certificate"></span> Prize</td>
+                <td>{{ book.prize }}</td>
+              </tr>
+              {% endif %}
               </tbody>
             </table>
 

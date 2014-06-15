@@ -91,9 +91,9 @@
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={{ book.title }}">Buy from Amazon.co.uk</a></li>
-                <li><a href="#">Buy from Waterstones</a></li>
-                <li><a href="#">Buy from Blackwells</a></li>
+                <li><a href="http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={{ book.title }}">Buy from <span class="retailer">Amazon.co.uk</span> for <span class="rrp-discount">£{{ book.rrp }}</span> <span class="rrp-discounted">£{{ (book.rrp * 0.75).toFixed(2) }}</span> <span class="price-star glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#">Buy from <span class="retailer">Waterstones</span> for £{{ book.rrp }}</a></li>
+                <li><a href="#">Buy from <span class="retailer">Blackwells</span> for £{{ book.rrp }}</a></li>
               </ul>
             </div>
 

@@ -19,8 +19,8 @@ module.exports = function (config) {
     Gossip.findById(req.params.gossipId)
     .then(function (gossip) {
       Book.findSome(gossip.text)
-      .then(function (result) {
-        res.json(result);
+      .then(function (books) {
+        res.render('gossip-search', { books: books, gossipText: gossip.text });
       }, next);
     }, next);
   });

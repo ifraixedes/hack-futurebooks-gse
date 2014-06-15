@@ -64,7 +64,7 @@ function bootstrap(serverConfig, callback) {
   }
 
   config.rootPath = __dirname;
-  config.db = elasticsearch.Client({ host: 'localhost:9200', log: 'trace' });
+  config.db = elasticsearch.Client({ host: 'localhost:9200' });
   start(config, callback);
 }
 

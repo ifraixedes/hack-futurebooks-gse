@@ -1,5 +1,5 @@
 [
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780091956486,
     "title":"Boleyn King,The",
     "author":"Andersen, Laura",
@@ -15,7 +15,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781849705950,
     "title":"Vengeful Spirit:Horus Heresy",
     "author":"McNeill, Graham",
@@ -31,7 +31,7 @@
     "coverWord5":"fire",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781447264354,
     "title":"Another Night, Another Day",
     "author":"Rayner, Sarah",
@@ -47,7 +47,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099584438,
     "title":"Bridget Jones: Mad About the Boy",
     "author":"Fielding, Helen",
@@ -63,7 +63,7 @@
     "coverWord5":"dress",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099579090,
     "title":"Stay Alive",
     "author":"Kernick, Simon",
@@ -79,7 +79,7 @@
     "coverWord5":"lights",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781909489400,
     "title":"Maze Runner,The:Maze Runner Series",
     "author":"Dashner, James",
@@ -95,7 +95,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780091951528,
     "title":"Running with the Firm",
     "author":"Bannon, James",
@@ -111,7 +111,7 @@
     "coverWord5":"black",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099556039,
     "title":"Cockroaches:An Early Harry Hole Case",
     "author":"Nesbo, Jo",
@@ -127,7 +127,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099581161,
     "title":"David Jason: My Life",
     "author":"Jason, David",
@@ -143,7 +143,7 @@
     "coverWord5":"Del Boy",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781780890289,
     "title":"NYPD Red 2:NYPD Red",
     "author":"Patterson, James",
@@ -159,7 +159,7 @@
     "coverWord5":"red",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781909489417,
     "title":"Scorch Trials,The:Maze Runner Series",
     "author":"Dashner, James",
@@ -175,7 +175,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781409145974,
     "title":"Summer at the Lake",
     "author":"James, Erica",
@@ -191,7 +191,7 @@
     "coverWord5":"mountain",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099571353,
     "title":"Unseen:(Will Trent / Atlanta Series 4):Will Trent / Atlanta",
     "author":"Slaughter, Karin",
@@ -207,7 +207,7 @@
     "coverWord5":"flower",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781909489424,
     "title":"Death Cure,The:Maze Runner Series",
     "author":"Dashner, James",
@@ -223,7 +223,7 @@
     "coverWord5":"building",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781849762984,
     "title":"Matisse",
     "author":"Rizzi, Juliette",
@@ -239,7 +239,7 @@
     "coverWord5":"Tate",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781849762991,
     "title":"Meet Matisse",
     "author":"Senac, Jean-Vincent",
@@ -255,7 +255,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781450874878,
     "title":"Sofia the First:Royal Picnic",
     "author":"",
@@ -271,7 +271,7 @@
     "coverWord5":"audio",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781908695802,
     "title":"Craig Bellamy Goodfella My Autobiography",
     "author":"Bellamy, Craig & Holt, Oliver",
@@ -287,7 +287,7 @@
     "coverWord5":"footballer",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781908695796,
     "title":"Keith Gillespie: How Not to be a Football Millionaire",
     "author":"Gillespie, Keith & McDonnell, Daniel",
@@ -303,7 +303,7 @@
     "coverWord5":"Newcastle",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781446304846,
     "title":"My Rag Doll:11 Adorable Rag Dolls to Sew with Clothes and Accessories",
     "author":"Crasbercu, Corinne",
@@ -319,7 +319,7 @@
     "coverWord5":"red",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781408843536,
     "title":"Sidney Chambers and the Perils of the Night",
     "author":"Runcie, James",
@@ -335,7 +335,7 @@
     "coverWord5":"tree",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781405914130,
     "title":"Is it Really Too Much to Ask?:The World According to Clarkson Volume 5",
     "author":"Clarkson, Jeremy",
@@ -351,7 +351,7 @@
     "coverWord5":"celebrity",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099574156,
     "title":"Private LA:(Private 7):Private Series",
     "author":"Patterson, James",
@@ -367,7 +367,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780091958312,
     "title":"Always Managing:My Autobiography",
     "author":"Redknapp, Harry",
@@ -383,7 +383,7 @@
     "coverWord5":"football manager",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781447228813,
     "title":"Treasure Hunt,The:The Inspector Montalbano Mysteries - Book 16:Inspect",
     "author":"Camilleri, Andrea",
@@ -399,7 +399,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780749958121,
     "title":"Whiskey Beach",
     "author":"Roberts, Nora",
@@ -415,7 +415,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781472207128,
     "title":"Coming Home",
     "author":"Gee, Sue",
@@ -431,7 +431,7 @@
     "coverWord5":"nurse",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099559146,
     "title":"Straight Flush",
     "author":"Mezrich, Ben",
@@ -447,7 +447,7 @@
     "coverWord5":"gambling",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781447255208,
     "title":"Summer Without You,The",
     "author":"Swan, Karen",
@@ -463,7 +463,7 @@
     "coverWord5":"sky",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781409146636,
     "title":"Maverick One:The True Story of a Para, Pathfinder, Renegade",
     "author":"Blakeley, David",
@@ -479,7 +479,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780711234826,
     "title":"100 Greatest Cycling Climbs of the Tour de France:A Cyclist's Guide to",
     "author":"Warren, Simon",
@@ -495,7 +495,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099588542,
     "title":"From Doon with Death:A Wexford Case - 50th Anniversary Edition:Wexford",
     "author":"Rendell, Ruth",
@@ -511,7 +511,7 @@
     "coverWord5":"lock",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246414,
     "title":"Summer Dreams",
     "author":"Roberts, Nora",
@@ -527,7 +527,7 @@
     "coverWord5":"ocean",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246513,
     "title":"Desert Hearts",
     "author":"Marton, Sandra & Marinelli, Carol & James, Melissa",
@@ -543,7 +543,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246483,
     "title":"What the Greek Can't Resist:Mills and Boon Modern",
     "author":"Blake, Maya & Collins, Dani",
@@ -559,7 +559,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246469,
     "title":"Ravelli's Defiant Bride:Mills and Boon Modern",
     "author":"Graham, Lynne & Green, Abby",
@@ -575,7 +575,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263908619,
     "title":"Ravelli's Defiant Bride:Mills and Boon Modern",
     "author":"Graham, Lynne",
@@ -591,7 +591,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246490,
     "title":"Man She Can't Forget:Mills and Boon Modern",
     "author":"Cox, Maggie & Gold, Kristi",
@@ -607,7 +607,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246087,
     "title":"Australia:In Bed with the Boss",
     "author":"Darcy, Emma",
@@ -623,7 +623,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263908671,
     "title":"Heir to Bind Them,An:Mills and Boon Modern",
     "author":"Collins, Dani",
@@ -639,7 +639,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246476,
     "title":"Heartbreaker Prince,The:Mills and Boon Modern",
     "author":"Lawrence, Kim & Walker, Kate",
@@ -655,7 +655,7 @@
     "coverWord5":"pink",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263914696,
     "title":"Expecting the CEO's Child:Mills and Boon Desire",
     "author":"Lindsay, Yvonne & Maynard, Janice",
@@ -671,7 +671,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263908633,
     "title":"Heartbreaker Prince,The:Mills and Boon Modern",
     "author":"Lawrence, Kim",
@@ -687,7 +687,7 @@
     "coverWord5":"pink",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263913606,
     "title":"Rescue at Cardwell Ranch:Mills & Boon Intrigue",
     "author":"Daniels, B. J. & Sharpe, Alice",
@@ -703,7 +703,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263913613,
     "title":"Groom Under Fire:Mills & Boon Intrigue",
     "author":"Childs, Lisa & Morgan, Angi",
@@ -719,7 +719,7 @@
     "coverWord5":"tuxedo",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263911879,
     "title":"Misbehaving with the Millionaire:Mills & Boon by Request",
     "author":"Lang, Kimberly & Mayo, Margaret & Wilkin",
@@ -735,7 +735,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263914689,
     "title":"Texan's Forbidden Fiancee,The:Mills and Boon Desire",
     "author":"Orwig, Sara & Bevarly, Elizabeth",
@@ -751,7 +751,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263908657,
     "title":"Question of Honour,A:Mills and Boon Modern",
     "author":"Walker, Kate",
@@ -767,7 +767,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263914702,
     "title":"Bride for the Black Sheep Brother,A:Mills and Boon Desire",
     "author":"McKay, Emily & Lane, Elizabeth",
@@ -783,7 +783,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263911886,
     "title":"Hot Summer Nights!:Mills & Boon by Request",
     "author":"Hunter, Kelly & Summers, Cara & McKay, E",
@@ -799,7 +799,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246520,
     "title":"Summer Temptation",
     "author":"Anderson, Natalie & Logan, Nikki & Andre",
@@ -815,7 +815,7 @@
     "coverWord5":"romance",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263913620,
     "title":"Traceless:Mills & Boon Intrigue",
     "author":"Dimon, HelenKay & Giordano, Adrienne",
@@ -831,7 +831,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246643,
     "title":"Don't Tell the Wedding Planner:Mills & Boon Modern Tempted",
     "author":"Carson, Aimee & King, Lucy",
@@ -847,7 +847,7 @@
     "coverWord5":"dress",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263912906,
     "title":"Taming Her Italian Boss:Mills & Boon Cherish",
     "author":"Harper, Fiona & Leigh, Allison",
@@ -863,7 +863,7 @@
     "coverWord5":"love",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263912890,
     "title":"Becoming the Prince's Wife:Mills & Boon Cherish",
     "author":"Winters, Rebecca & Major, Michelle",
@@ -879,7 +879,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246650,
     "title":"Falling for Her Rival:Mills & Boon Modern Tempted",
     "author":"Braun, Jackie & Wood, Joss",
@@ -895,7 +895,7 @@
     "coverWord5":"couple",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263914221,
     "title":"Protecting Her Royal Baby:Mills & Boon Romantic Suspense",
     "author":"Cornelison, Beth",
@@ -911,7 +911,7 @@
     "coverWord5":"son",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263911367,
     "title":"Best Man for the Job,The:Mills & Boon Modern Tempted",
     "author":"King, Lucy",
@@ -927,7 +927,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780263246070,
     "title":"What a Hero Dares:The Regency Redgraves",
     "author":"Michaels, Kasey",
@@ -943,7 +943,7 @@
     "coverWord5":"medieval",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780356501109,
     "title":"Thief's Magic:Millennium's Rule",
     "author":"Canavan, Trudi",
@@ -959,7 +959,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781847941220,
     "title":"Stress Test:Reflections on Financial Crises",
     "author":"Geithner, Timothy",
@@ -975,7 +975,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780571290048,
     "title":"Moor,The:Lives Landscape Literature",
     "author":"Atkins, William",
@@ -991,7 +991,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781782490999,
     "title":"Woman's Shed,A:Spaces for Women to Create, Write, Make Music, Think, G",
     "author":"Heriz, Gill",
@@ -1007,7 +1007,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781602862586,
     "title":"Grace of Monaco",
     "author":"Robinson, Jeffrey",
@@ -1023,7 +1023,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781846147555,
     "title":"Think Like a Freak:How to Think Smarter About Almost Everything",
     "author":"Levitt, Steven D. & Dubner, Stephen J.",
@@ -1039,7 +1039,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781781802915,
     "title":"Tapping Solution for Weight Loss and Body Confidence,The:A Woman's Gui",
     "author":"Ortner, Jessica",
@@ -1055,7 +1055,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780241146699,
     "title":"No Place to Hide:Edward Snowden, the NSA and the Surveillance State",
     "author":"Greenwald, Glenn",
@@ -1071,7 +1071,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781471403989,
     "title":"We Were Liars",
     "author":"Lockhart, E.",
@@ -1087,7 +1087,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781905802968,
     "title":"Wanna Cook?:The Complete, Unofficial Companion to Breaking Bad",
     "author":"Guffey, Ensley F. & Koontz, K. Dale",
@@ -1103,7 +1103,7 @@
     "coverWord5":"square",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781401245092,
     "title":"Batman Superman:(Volume 1) ",
     "author":"Pak, Greg",
@@ -1119,7 +1119,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780552169585,
     "title":"Inferno:(Robert Langdon Book 4):Robert Langdon",
     "author":"Brown, Dan",
@@ -1135,7 +1135,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781408842454,
     "title":"And the Mountains Echoed",
     "author":"Hosseini, Khaled",
@@ -1151,7 +1151,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099580881,
     "title":"Officer and a Spy,An",
     "author":"Harris, Robert",
@@ -1167,7 +1167,7 @@
     "coverWord5":"tree",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780552160964,
     "title":"I am Pilgrim",
     "author":"Hayes, Terry",
@@ -1183,7 +1183,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781405914871,
     "title":"Eeny Meeny",
     "author":"Arlidge, M. J.",
@@ -1199,7 +1199,7 @@
     "coverWord5":"thriller",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781847562821,
     "title":"Every Woman for Herself",
     "author":"Ashley, Trisha",
@@ -1215,7 +1215,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781407138879,
     "title":"Tiny Bit Lucky,A:Tom Gates",
     "author":"Pichon, Liz",
@@ -1231,7 +1231,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099559283,
     "title":"Lie,The",
     "author":"Dunmore, Helen",
@@ -1247,7 +1247,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781782062080,
     "title":"Extraordinary People:An Enzo Macleod Investigation:The Enzo Files",
     "author":"May, Peter",
@@ -1263,7 +1263,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781408853580,
     "title":"Before We Met",
     "author":"Whitehouse, Lucie",
@@ -1279,7 +1279,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780753555026,
     "title":"Guy Martin:My Autobiography",
     "author":"Martin, Guy",
@@ -1295,7 +1295,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780099578970,
     "title":"Solo:A James Bond Novel",
     "author":"Boyd, William",
@@ -1311,7 +1311,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780755353828,
     "title":"Blood Crows,The",
     "author":"Scarrow, Simon",
@@ -1327,7 +1327,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781444706499,
     "title":"Masters of War",
     "author":"Ryan, Chris",
@@ -1343,7 +1343,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780241963388,
     "title":"Mad About You",
     "author":"Moriarty, Sinead",
@@ -1359,7 +1359,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780007519743,
     "title":"Catastrophe:Europe Goes to War 1914",
     "author":"Hastings, Sir Max",
@@ -1375,7 +1375,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781444757453,
     "title":"Skin Collector,The:Lincoln Rhyme",
     "author":"Deaver, Jeffery",
@@ -1391,7 +1391,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780552779005,
     "title":"Dear Thing",
     "author":"Cohen, Julie",
@@ -1407,7 +1407,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781447273349,
     "title":"I Quit Sugar for Life:Your fad-free wholefood wellness code and cookbo",
     "author":"Wilson, Sarah",
@@ -1423,7 +1423,7 @@
     "coverWord5":"eat",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781780892337,
     "title":"Murder Bag,The",
     "author":"Parsons, Tony",
@@ -1439,7 +1439,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780241959596,
     "title":"David and Goliath:Underdogs, Misfits and the Art of Battling Giants",
     "author":"Gladwell, Malcolm",
@@ -1455,7 +1455,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780007564286,
     "title":"One Direction: Where We are (100% Official):Our Band, Our Story",
     "author":"",
@@ -1471,7 +1471,7 @@
     "coverWord5":"music",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780593073995,
     "title":"Good Psychopath's Guide to Success,The",
     "author":"McNab, Andy & Dutton, Kevin",
@@ -1487,7 +1487,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781471134579,
     "title":"Being Binky",
     "author":"Felstead, Binky",
@@ -1503,7 +1503,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781405273527,
     "title":"Little Miss Hug",
     "author":"Hargreaves, Roger",
@@ -1519,7 +1519,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780751544923,
     "title":"Grail Knight:Outlaw Chronicles",
     "author":"Donald, Angus",
@@ -1535,7 +1535,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781447236023,
     "title":"Voices,The",
     "author":"Tallis, F. R.",
@@ -1551,7 +1551,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780091957841,
     "title":"Raw",
     "author":"Mulholland, Marni",
@@ -1567,7 +1567,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780751549591,
     "title":"Under a Silent Moon:Detective Inspector Louisa Smith",
     "author":"Haynes, Elizabeth",
@@ -1583,7 +1583,7 @@
     "coverWord5":"",
     "prize":""
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780575132481,
     "title":"Broken Homes",
     "author":"Aaronovitch, Ben",
@@ -1599,7 +1599,7 @@
     "coverWord5":"house",
     "prize":"Crimefest"
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780007356348,
     "title":"Americanah",
     "author":"Adichie, Chimamanda Ngozi",
@@ -1615,7 +1615,7 @@
     "coverWord5":"",
     "prize":"National Book Critics Circle"
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9781408848180,
     "title":"Paper Towns",
     "author":"Green, John",
@@ -1631,7 +1631,7 @@
     "coverWord5":"sketch",
     "prize":"Edgar"
   },
-  { "create" : { "_index": "books", "_type": "book" } }, {
+  {
     "isbn":9780141023571,
     "title":"Of Mice and Men:Penguin Classics",
     "author":"Steinbeck, John",

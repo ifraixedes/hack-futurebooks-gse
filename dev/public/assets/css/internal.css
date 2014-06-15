@@ -56,3 +56,25 @@ table#attributes tr td.actions a {
 table#attributes tr td.actions a:hover {
 	text-decoration: none;
 }
+
+div.book {
+	padding-top: 20px;
+}
+
+div.book h2 {
+	color: #16a085;
+	display: block;
+	font-size: 1.4em;
+}
+
+div.book div.query {
+	background: url('../img/quotes.png') no-repeat 106% 10px;
+	padding: 40px 80px 40px 40px;
+	margin-bottom: 0;
+}
+
+div.book div.buy-button button {
+	font-size: 1.2em;
+	background: #16a085;
+	border: 1px solid #118c74;
+}

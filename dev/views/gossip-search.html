@@ -29,7 +29,7 @@
           <form class="form-inline" action="/search" method="post" id="search">
             <div class="form-group">
               <label class="sr-only" for="gossip">Query</label>
-              <input type="text" class="form-control" id="gossip" name="text" size="75" maxlength="128" value="{{ gossipText }}" />
+              <input type="text" class="form-control" id="gossip" name="text" size="75" maxlength="128" value="{{ gossip.text }}" />
             </div>
             <button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
           </form>
@@ -42,7 +42,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="query">
-            <p>{{ gossipText }}</p>
+            <p>{{ gossip.text }}</p>
           </div>
           <div class="results">
             {% for book in books %}
@@ -76,7 +76,7 @@
                       <li></li>
                     </ul>
                     <figcaption>
-                    <h1><a href="/book/{{ book._source.isbn }}">{{ book._source.title }}</a></h1>
+                    <h1><a href="/book/{{ book._source.isbn }}/{{ gossip.id }}">{{ book._source.title }}</a></h1>
                     <span>{{ book._source.author }}</span>
                     </figcaption>
                   </figure>

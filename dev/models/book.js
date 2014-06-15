@@ -23,7 +23,7 @@ module.exports = function (config) {
     return db.search(queryObj)
     .then(modelHelper.dbResultFromSearchToData)
     .then(function (bookDocsList) {
-      return bookDocksList[0] || null;
+      return bookDocsList[0] || null;
     });
   };
   /**

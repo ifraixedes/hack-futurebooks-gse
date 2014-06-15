@@ -6,7 +6,7 @@ module.exports = function (config) {
   var router = require('express').Router();
 
 
-  router.get('/:bookIsbn/goosipId?', function (req, res, next) {
+  router.get('/:bookIsbn/:gossipId?', function (req, res, next) {
     Book.findByIsbn(req.params.bookIsbn)
     .then(function (bookDoc) {
       if (req.params.gossipId) {

@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/assets/css/internal.css */
+
 body {
   min-height: 1000px;
   padding-top: 100px;
@@ -28,6 +30,7 @@ div.query {
 	background: url('../img/quotes.png') no-repeat 640px 10px;
 	padding: 40px 100px 40px 40px;
 	margin-bottom: 40px;
+	font-style: italic;
 }
 
 div.query p {
@@ -77,4 +80,31 @@ div.book div.buy-button button {
 	font-size: 1.2em;
 	background: #16a085;
 	border: 1px solid #118c74;
+}
+
+div.book div.buy-button button.dropdown-toggle {
+	background: #16a085;
+	border: 1px solid #16a58a;
+}
+
+span.rrp-discount {
+	color: red;
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+span.rrp-discounted {
+	font-weight: bold;
+}
+
+span.retailer {
+	font-weight: bold;
+}
+
+span.price-star {
+	color: #ffcc00;
+}
+
+div.book span.glyphicon-certificate {
+	color: #ec912b;
 }

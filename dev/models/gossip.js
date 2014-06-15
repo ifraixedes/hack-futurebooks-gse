@@ -1,15 +1,13 @@
 'use strict';
 
 var _ = require('lodash');
+var modelHelper = require('./_helper');
 
 var _extend = _.extend;
 
-function dbResultToData(dbResult) {
-  return dbResult.hits.hits;
-}
-
 module.exports = function (config) {
   function Gossip(data) {
+    this.id = data.id || null;
     this.text = data.text
     this.location = data.location;
   }
@@ -17,57 +15,65 @@ module.exports = function (config) {
   Gossip.prototype.toDataObject = function () {
     return {
       text: this.text,
-      location: this.location,
+      location: this.location
     };
   };
 
   Gossip.prototype.save = function () {
+    var _this = this;
     var gossipData = _extend({}, baseGossipData)
 
-    if (!this.id) {
+    if (this.id) {
       gossipData.id = this.id;
     }
 
-    if (!this.timestamp) {
+    if (this.timestamp) {
       gossipData.timestamp = this.timestamp;
+    } else {
+      gossipData.timestamp = Date.now();
     }
 
     gossipData.body = this.toDataObject();
 
     return db.create(gossipData)
-      .then(function (dbResult) { 
-        console.log(dbResult);
+      .then(modelHelper.dbResultFromInsertToData)
+      .then(function (data) {
+        _this.id = data.id;
         return { status: 'ok' };
       });
   };
 
   Gossip.findById = function (id) {
-    db.get(_extend({ id: id }, baseGossipData))
-    .then(function (dbResult) {
-      console.log(dbResult);
+    return db.get(_extend({ id: id }, baseGossipData))
+    .then(modelHelper.dbResultFromSingleDocument)
+    .then(function (data) {
+      return new Gossip(data);
     });
   }
 
   /**
    *
-   * [distance] (number|string): distance radius in kilometers when number. Default 50km
+   * geo (Object)
+   *    [distance] (number|string): distance radius in kilometers when number. Default 50km
    * */
-  Gossip.findSimilar = function (text, location, distance) {
-    var queryObj = _extend({}, baseGossipData);
-    var body;
-
-    if (location) {
-      queryObj.body = {
+  Gossip.findSome = function (text, geo, limit) {
+    var queryObj = _extend({
+      body: {
         filtered: {
-          strategy: "leap_frog_filter_first"
+          filter: {
+            limit: limit || ('number' === typeof geo) ? geo : 10
+          }
+          //strategy: "leap_frog_filter_first"
         }
-      };
-      body = queryObj.body.filtered;
+      }
+    }, baseGossipData);
+    var body =  queryObj.body.filtered;
 
-      switch (distance) {
-        case 'number': 
-          distance = distance + 'km';
-          break;
+    if (geo && geo.location) {
+      switch (geo.distance) {
+        case 'number':
+          distance = geo.distance + 'km';
+        break;
         case 'string':
           break;
         default:
@@ -78,8 +84,8 @@ module.exports = function (config) {
         geo_distance: {
           distance: distance,
           location: {
-            lat: location.lat,
-            lon: location.lon
+            lat: geo.location.lat,
+            lon: geo.location.lon
           }
         }
       };
@@ -93,9 +99,8 @@ module.exports = function (config) {
       }
     };
 
-    db.search(queryObj)
-    .then(function (dbResult) {
-    });
+    return db.search(queryObj)
+    .then(modelHelper.dbResultFromSearchToData);
   };
 
   var baseGossipData = {
